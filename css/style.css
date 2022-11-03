@@ -308,6 +308,12 @@
   #main-footer a {
     color: #fff;
   }
+
+  #main-footer .footer-content p {
+    margin-top: 1rem;
+  }
+
+
   
   /*Media queries*/
   @media (max-width: 830px) {
