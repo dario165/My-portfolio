@@ -168,7 +168,7 @@
   body {
     font-family: "Dosis", sans-serif;
     line-height: 1.6;
-    background: #fff;
+    background: #e8e5e3;;
   }
   
   a {
@@ -188,6 +188,8 @@
     font-size: 18px;
     text-align: left;
   }
+
+
   
   /*Header*/
   #header-home {
@@ -323,6 +325,7 @@
     #header-home .header-content {
       padding-top: 20rem;
     }
+   
   }
 
   
@@ -370,6 +373,10 @@
   
     #about .about-info {
       grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3";
+    }
+
+    #contact-a .text-fields {
+      grid-template-areas: "name" "subject" "email" "phone" "message";
     }
   }
   
