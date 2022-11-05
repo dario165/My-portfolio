@@ -323,7 +323,7 @@
       height: 35rem;
     }
     #header-home .header-content {
-      padding-top: 20rem;
+      padding-top: 10rem;
     }
    
   }
@@ -331,22 +331,20 @@
   
   
   @media (max-width: 500px) {
+
+
     #header-home {
       height: 20rem;
       border-bottom: 3px solid #ffbc00;
       background-position: 20% 30%;
     }
     #header-home .header-content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+    
       }
 
   #header-home .header-content h1 {
-    margin-top: 3rem; ;
     font-size: 2rem;
-    line-height: 1.2;
+    
   }
 
   #header-home .header-content h2 {
