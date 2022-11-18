@@ -10,7 +10,7 @@
   body {
     font-family: "Dosis", sans-serif;
     line-height: 1.6;
-    background: #e8e5e3;;
+    background: #F0F5F9;
   }
   
   a {
@@ -51,7 +51,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ffbc00;
+  background-color: #00ADB5;
 }
 
 .btn-light {
@@ -61,22 +61,18 @@
 
 .btn-dark {
   color: #f4f4f4;
-  background-color: #333;
+  background-color: #393E46;
 }
 
-button[class^="btn-"]:hover,
-a[class^="btn-"]:hover,
-input[class^="btn-"]:hover {
-  background-color: #ffbc00;
-}
+
 
 .bg-main {
-  background: #ffbc00;
+  background: #00ADB5;
   color: #fff;
 }
 
 .bg-dark {
-  background: #333;
+  background: #393E46;
   color: #fff;
 }
 
@@ -143,7 +139,7 @@ input[class^="btn-"]:hover {
   .bottom-line {
     height: 2px;
     width: 3rem;
-    background: #ffbc00;
+    background: #393E46;
     display: block;
     margin: 0 auto 1rem auto;
   }
@@ -156,7 +152,7 @@ input[class^="btn-"]:hover {
   
   .item {
     position: relative;
-    background: #ffbc00;
+    background: #393E46;
     overflow: hidden;
   }
   
@@ -275,7 +271,7 @@ input[class^="btn-"]:hover {
     transition: border-color 0.5s;}
 
   #main-nav ul li a:hover {
-    border-color: #ffbc00;
+    border-color: #00ADB5;
   }
 
 
@@ -304,7 +300,7 @@ input[class^="btn-"]:hover {
     grid-template-columns: repeat(3, 1fr);
   }
   #icons .specials .fas {
-    color: #ffbc00;
+    color: #00ADB5;
     padding-bottom: 0.4rem;
   }
   
@@ -322,7 +318,7 @@ input[class^="btn-"]:hover {
   
   #about .bio {
     grid-area: bio;
-    border-left: 3px solid #ffbc00;
+    border-left: 3px solid #00ADB5;
     padding: 0.8rem;
   }
   
@@ -383,7 +379,7 @@ input[class^="btn-"]:hover {
   /*Footer*/
   
   #main-footer {
-    background: #333;
+    background: #393E46;
     color: #fff;
     height: 6rem;
   }
@@ -404,7 +400,7 @@ input[class^="btn-"]:hover {
     padding: 0.5rem;
   }
   #main-footer .footer-content .social .fab:hover {
-    background: #ffbc00;
+    background: #00ADB5;
   }
   
   #main-footer a {
