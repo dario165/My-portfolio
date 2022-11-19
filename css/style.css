@@ -8,7 +8,7 @@
   }
   
   body {
-    font-family: "Dosis", sans-serif;
+    font-family: Montserrat Light, sans-serif;
     line-height: 1.6;
     background: #F0F5F9;
   }
@@ -250,9 +250,11 @@
     position: fixed;
     top: 0;
     padding: 0 30px;
+    }
 
-
-     }
+     #main-nav.top {
+      background: transparent;
+    }
 
 
   #main-nav ul {
